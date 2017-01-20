@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/layout_root" android:background="#00000000" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#ffffffff" android:id="@id/caption_name" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/caption_waypoint_name" />
+        <EditText android:id="@id/edit_name" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow>
+                <TextView android:textColor="#ffffffff" android:id="@id/caption_latitude" android:layout_width="0.0dip" android:layout_margin="5.0dip" android:text="@string/caption_latitude" android:layout_weight="1.0" />
+                <TextView android:textColor="#ffffffff" android:id="@id/caption_longitude" android:layout_width="0.0dip" android:layout_margin="5.0dip" android:text="@string/caption_longitude" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <EditText android:id="@id/edit_latitude" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0" android:inputType="numberSigned|numberDecimal" />
+                <EditText android:id="@id/edit_longitude" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0" android:inputType="numberSigned|numberDecimal" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textColor="#ffffffff" android:id="@id/caption_elevation" android:layout_width="0.0dip" android:layout_margin="5.0dip" android:text="@string/caption_elevation" android:layout_weight="1.0" />
+                <TextView android:textColor="#ffffffff" android:id="@id/caption_accuracy" android:layout_width="0.0dip" android:layout_margin="5.0dip" android:text="" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <EditText android:id="@id/edit_elevation" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0" android:inputType="numberSigned|numberDecimal" />
+                <TextView android:id="@id/text_accuracy" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0" />
+            </TableRow>
+        </TableLayout>
+        <TextView android:textColor="#ffffffff" android:id="@id/caption_notes" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/caption_notes" />
+        <EditText android:id="@id/edit_notes" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</ScrollView>

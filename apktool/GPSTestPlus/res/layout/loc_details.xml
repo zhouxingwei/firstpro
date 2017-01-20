@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/layout_root" android:background="#00000000" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_name" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="名称" android:layout_weight="0.0" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_name" android:layout_width="0.0dip" android:layout_marginRight="10.0dip" android:text="Clump Courner" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_latitude" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="纬度 (WGS84)" android:layout_weight="0.0" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_latitude" android:layout_width="0.0dip" android:layout_marginRight="10.0dip" android:text="53.789065" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_longitude" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="经度 (WGS84)" android:layout_weight="0.0" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_longitude" android:layout_width="0.0dip" android:layout_marginRight="10.0dip" android:text="-0.234567" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_grid" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="网格" android:layout_weight="0.0" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_grid" android:layout_width="0.0dip" android:layout_marginRight="10.0dip" android:text="MGRS" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_datum" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="基准" android:layout_weight="0.0" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_datum" android:layout_width="0.0dip" android:layout_marginRight="10.0dip" android:text="NAD27" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_location" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="位置" android:layout_weight="0.0" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_location" android:layout_width="0.0dip" android:layout_marginRight="10.0dip" android:text="30U\u00090594312\n30U\u00095622252" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_elevation" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="海拔" android:layout_weight="0.0" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_elevation" android:layout_width="0.0dip" android:layout_marginRight="10.0dip" android:text="2345.7 米" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_accuracy" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="精度" android:layout_weight="0.0" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_accuracy" android:layout_width="0.0dip" android:layout_marginRight="10.0dip" android:text="23.2 米" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_savetime" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="储存在" android:layout_weight="0.0" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_savetime" android:layout_width="0.0dip" android:layout_marginRight="10.0dip" android:text="2011年9月19日12:43" android:layout_weight="1.0" />
+            </TableRow>
+        </TableLayout>
+        <View android:id="@id/first_divider" android:background="#ff808080" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffb0b0b0" android:id="@id/caption_notes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="记录" android:layout_weight="0.0" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_notes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="这是一个测试此非常优秀的软件，我希望它看上去好口味" android:layout_weight="0.0" />
+    </LinearLayout>
+</ScrollView>

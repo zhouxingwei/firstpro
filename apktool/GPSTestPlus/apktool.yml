@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: GPSTestPlus.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '3'
+  targetSdkVersion: '10'
+packageInfo:
+  cur_package: com.chartcross.gpstestplus
+  orig_package: com.chartcross.gpstestplus
+compressionType: true

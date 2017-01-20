@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caption_no_dest">无目的地</string>
+    <string name="caption_units_feet_short">英尺</string>
+    <string name="caption_units_yards_short">公尺</string>
+    <string name="caption_units_miles_short">英里</string>
+    <string name="caption_units_nautical_miles_short">海里</string>
+    <string name="caption_units_meters_short">米</string>
+    <string name="caption_units_kilometers_short">千米</string>
+    <string name="caption_units_feet_long">英尺</string>
+    <string name="caption_units_yards_long">公尺</string>
+    <string name="caption_units_miles_long">英里</string>
+    <string name="caption_units_nautical_miles_long">海里</string>
+    <string name="caption_units_meters_long">米</string>
+    <string name="caption_units_kilometers_long">公里</string>
+    <string name="caption_units_mph">英里/每小时</string>
+    <string name="caption_units_kmh">公里/小时</string>
+    <string name="caption_units_knots">knts</string>
+    <string name="caption_altitude">海拔</string>
+    <string name="caption_elevation">仰角</string>
+    <string name="caption_elevation_meters">海拔高度（米）</string>
+    <string name="caption_elevation_feet">海拔高度（英尺）</string>
+    <string name="caption_accuracy">精度</string>
+    <string name="caption_speed">速度</string>
+    <string name="caption_distance">距离</string>
+    <string name="caption_elasped">所用时间</string>
+    <string name="caption_local_time">本地时间</string>
+    <string name="caption_vmg">垂直度</string>
+    <string name="caption_latitude">纬度</string>
+    <string name="caption_longitude">经度</string>
+    <string name="caption_notes">记录</string>
+    <string name="caption_dist_next">下一路程</string>
+    <string name="caption_dist_dest">出发路程</string>
+    <string name="caption_time_next">下一时间点</string>
+    <string name="caption_time_dest">出发时间</string>
+    <string name="caption_eta_next">下一点预计抵达时间</string>
+    <string name="caption_eta_dest">目的地预计抵达时间</string>
+    <string name="caption_waypoint_name">名称</string>
+    <string name="caption_waypoint_description">描述</string>
+    <string name="caption_waypoint_latitude">纬度</string>
+    <string name="caption_waypoint_longitude">经度</string>
+    <string name="caption_waypoint_elevation">海拔</string>
+    <string name="caption_field_editor">字段编辑器</string>
+    <string name="caption_grid_type">网格类型</string>
+    <string name="caption_field_colour">文本颜色</string>
+    <string name="caption_field_size">字段大小</string>
+    <string name="history_title">历史记录</string>
+    <string name="history_clear_title">清除历史记录 ?</string>
+    <string name="history_clear_message">将删除所有已保存的位置。你确定?</string>
+    <string name="save_location_title">保存位置</string>
+    <string name="edit_location_title">编辑位置</string>
+    <string name="details_title">详细信息</string>
+    <string name="app_name">GPS测试工具</string>
+    <string name="app_desc">GPS测试以及应用</string>
+    <string name="app_version">版本 1.2.1</string>
+    <string name="app_copyright">©Chartcross Ltd 2010-2012</string>
+    <string name="app_website">www.chartcross.co.uk</string>
+    <string name="app_facebook">www.facebook.com/gpstest</string>
+    <string name="app_settings_title">GPS测试工具设置</string>
+    <string name="msg_restart">重新连接到 GPS</string>
+    <string name="button_market"><b>Chartcross开发的应用程序</b></string>
+    <string name="settings_category_general">概括</string>
+    <string name="settings_category_grid">坐标网格设置</string>
+    <string name="settings_category_format">字段格式设置</string>
+    <string name="settings_category_speed_view">速度显示设置</string>
+    <string name="settings_category_dials">转盘设置</string>
+    <string name="settings_category_navigation">导航设置</string>
+    <string name="disclaimer"><b>免责声明</b>"
+
+Chartcross有限公司不承担任何方式使用该软件中可能出现的任何及所有责任。
+
+数据的准确性取决于安装本软件设备自身的GPS和传感器。Chartcross Limited不保证或为显示的数据的准确性负责。"</string>
+    <string name="acknowledgement"><b>鸣谢</b>"
+
+该产品的坐标转换功能开发使用代码来自GEOTRANS，一个产品的国家地理空间情报局（NGA）和美国陆军工程技术研究开发中心。"</string>
+    <string name="safety"><b>安全</b>"
+
+如果您打算在车辆使用这个软件应该保证安全第一原则。应该确保设备已正确安装在车辆上，旅程出发之前，启动该程序，并更改设置，配色方案等。"</string>
+    <string name="screen_keep_on">"
+只要此应用程序处于运行状态，屏幕将持续开启"</string>
+    <string name="help_caption">应用程序帮助</string>
+    <string name="help_title001">1.0 介绍</string>
+    <string name="help_title002">2.0 应用程序按键</string>
+    <string name="help_title003">3.0 卫星信号查看</string>
+    <string name="help_title004">4.0 卫星位置视图</string>
+    <string name="help_title005">5.0 地点查看</string>
+    <string name="help_title006">6.0 快速查看</string>
+    <string name="help_title007">7.0 转盘视图</string>
+    <string name="help_title008">8.0 时间视图</string>
+    <string name="help_title009">9.0 设置</string>
+    <string name="help_text001">"GPS测试+显示从您设备的GPS接收器获得的信息。它显示位置及视野范围内每颗卫星的接收信号强度，以及当前位置和时间。
+
+有一个HUD（抬头显示器）菜单选项，正常和镜像之间切换的视图用于反射的用途。例如到车的前挡风玻璃上。
+
+通过“分享”功能，您也可以将当前位置分享给其他人。
+
+汉化：vzhi@安智汉化组 
+论坛：bbs.anzhi.com"</string>
+    <string name="help_text002">每个视图的底部，有四个按钮。点击一个按钮显示相关的视图。</string>
+    <string name="help_text003">"此视图显示卫星信号信息。 左上角的字段显示的GPS，无论是打开或关闭状态。您可以点击此字段来开启/关闭GPS。右上方的字段显示GPS位置的准确性，数字越小越好。下面这是卫星信号图，显示栏用于每颗卫星视图显示。下方栏的数字是卫星编号（如果数量颜色反转则是GLONASS卫星），它上面的数字是用分贝（dB）表示的信号噪声比。
+
+下面的卫星信号图是一个SNR的颜色图例。灰色表示该卫星可以被GPS引擎发现，但还没有用于计算位置的定位。其他颜色卫星用于在定位时显示。颜色代表信号噪声比的范围。卫星信号的信噪比值介于0和99分贝，0是最差的。 正常情况下，信噪比永远不会超过50，40以上是非常好的。 颜色如下 :-
+
+00-10 = 红色
+10-20 = 橙色
+20-30 = 黄色
+30-40 = 葱绿
+40-99 = 绿色"</string>
+    <string name="help_text004">该视图显示了GPS卫星的位置。在此屏幕顶端显示领域能够欣赏到头上的天空（天空图）, 外侧的圆表示地平线，中心直接代表在你的头顶天空。使用内部的指南针旋转天空视图到正确的位置。GPS接收器卫星视图绘制如果符号是圆的是GPS卫星，如果该符号是一个三角形该卫星是GLONASS卫星。每颗卫星符号具有如下所示的卫星编号并画出一种颜色，表示卫星信号的信噪比。信噪比的范围和颜色图例在天空视图下方。</string>
+    <string name="help_text005">该视图显示了你在地球上的位置。上面的栏位显示所选坐标网格当前位置的的坐标。底部区域是一个世界地图，您的当前位置显示一个红色的标记。白天和黑夜之间的过渡和您目前所在位置相对于太阳的位置也被绘制在地图上。</string>
+    <string name="help_text006">此视图显示您目前的速度、高度和航向。点击上面的一个小领域与大视图互换。点击大视图切换到全屏视野，全屏视图中点选切换回正常视野。</string>
+    <string name="help_text007">此视图显示您目前的速度、高度和航向。点击上面的一个小领域与大视图互换。点击大视图切换到全屏视野，全屏视图中点选切换回正常视野。</string>
+    <string name="help_text008">此视图显示不同的时间和日期等。前两个字段显示从您的GPS接收世界标准时间（UTC）的时间和日期。这是基于国际原子时和世界各地是相同的。接下来的两个字段显示您目前所在位置当地的时间和日期。最后两个栏位显示您目前所在位置的日出和日落的时间。</string>
+    <string name="help_text009"><b>清除AGPS按钮</b>"
+
+按下此按钮从您的手机清除AGPS辅助数据。如果你的GPS需要很长的时间来定位，请选择它。
+
+"<b>更新AGPS按钮</b>"
+
+按下此按钮请求下载AGPS辅助数据。AGPS辅助数据已经过时了，所以要求更新获取最新版本。
+
+"<b>保持屏幕开启</b>"
+
+本软件运行时禁止屏幕关闭，电池寿命缩短。
+
+"<b>隐藏状态栏</b>"
+
+将应用进入全屏模式隐藏状态栏。
+
+"<b>隐藏启动画面</b>"
+
+当应用程序启动时不显示启动画面。
+
+"<b>屏幕方向</b>"
+
+选择要固定屏幕在一个特定的方向或将其设置为“自动”模式。
+
+"<b>配色方案</b>"
+
+选择一种色彩方案。夜晚的颜色都在不同深浅的红色，以帮助保持夜视。
+
+"<b>字段文字的颜色</b>"
+
+选择数据字段的颜色即速度、海拔高度、精度等的颜色可以设置独立的配色方案。若要让文本颜色相同配色方案，选择“颜色计划默认值”选项。
+
+"<b>字段文字字体</b>"
+
+选择数据字段显示的字体。可以是标准文本、七段LED或LED点阵。
+
+"<b>网格</b>"
+
+选择坐标网格。
+
+"<b>基准</b>"
+
+选择当前选中的网格基准。
+
+"<b>精度</b>"
+
+选择MSR对使用的网格显示精度。
+
+"<b>时间格式</b>"
+
+设置时间显示格式，24/12小时制。
+
+"<b>日期格式</b>"
+
+设置日期显示格式。
+
+"<b>速度单位</b>"
+
+设置速度单位。
+
+"<b>高度单位</b>"
+
+选择高度和精度字段的显示单位。
+
+"<b>方向角单位</b>"
+
+选择方向角的显示单位。它可以是度，密耳（军事）或基数（N，NE，E，SE，S，SW，W，NW，N）。
+
+"<b>航向仪</b>"
+
+选择设备使用罗盘和GPS。您可以选择自动，使用电子罗盘或使用GPS。设置“自动”选项，如果你当前行进速度在10英里/每小时将使用GPS，否则将使用电子罗盘。
+
+"<b>北参照</b>"
+
+选择罗盘和GPS使用的北参考。您可以选择“真北”或“磁北”。如果您选择“真北”则航向值将为您目前的位置调整磁偏角。
+
+"<b>调整高度</b>"
+
+如果勾选此选项应用平均海平面和GPS椭球的海拔高度之间的偏移量。一些GPS芯片可以应用此内部偏移，所以，如果你海拔高度是错误的请尝试取消勾选此选项。
+
+"<b>显示风格</b>"
+
+选择速度显示风格。
+
+"<b>显示小数点</b>"
+
+如果勾选，显示速度到小数点后一位。
+
+"<b>高度计类型</b>"
+
+为表盘选择高度计显示时的样式设置。
+
+"<b>罗盘类型</b>"
+
+显示转盘的罗盘显示类型。
+
+"<b>速度计类型</b>"
+
+选择速度计表盘显示类型。
+
+"<b>速度计限制</b>"
+
+设置车速表显示的最高速度。
+
+"<b>显示秒</b>"
+
+在GPS导航屏幕上的时间显示秒。"</string>
+    <string name="help2_caption">导航帮助</string>
+    <string name="help2_title001">1.0 介绍</string>
+    <string name="help2_title002">2.0 应用程序按钮</string>
+    <string name="help2_title003">3.0 罗盘视图</string>
+    <string name="help2_title004">4.0 雷达视图</string>
+    <string name="help2_title005">5.0 保存位置画面</string>
+    <string name="help2_title006">6.0 编辑位置画面</string>
+    <string name="help2_title007">7.0 位置详细资讯画面</string>
+    <string name="help2_title008">8.0 位置历史画面</string>
+    <string name="help2_text001">"GPS测试工具支持简单的导航。您可以保存您目前的位置或输入新的位置，然后导航至它。过去一年已保存的位置存储，使您可以进行简单的路线导航。本帮助文档假设您正在肖像模式使用GPS测试工具，风景模式中布局是不同。
+    
+汉化：vzhi@安智汉化组 
+论坛：bbs.anzhi.com"</string>
+    <string name="help2_text002">在屏幕的底部，有四个按钮。点击一个按钮执行以下操作。</string>
+    <string name="help2_text003">此视图显示导航罗盘。左上方的字段显示已保存位置以来所经过的时间。点击此区域在经过时间和本地时间之间切换。右上方字段显示你目前位置与已保存位置之间的距离。下面这是已激活的保存位置名称“字段”中，点选此栏显示的位置的详细信息。下方是导航罗盘，它显示您当前被激活的保存位置标题和指针。</string>
+    <string name="help2_text004">"此视图显示导航雷达。屏幕与罗盘视图具有相同的字段，除了指南针取代的雷达。
+
+该中心的雷达代表您目前的位置，绿斑在雷达上显示的位置表示被保存位置，相对于您目前的位置。你已经达到了激活保存位置时，斑点在该雷达中心。斑点的大小不同根据GPS定位的精度，不准确的位置斑点越大。"</string>
+    <string name="help2_text005">"此屏幕用于保存您的当前位置或进入一个新的位置。如果你有一个良好GPS定位纬度、经度和海拔，将从GPS读取值并被填充，否则会显示为零。
+
+所有字段都可以被改变包括经度和纬度，所以你可以输入坐标，然后导航至藏宝点位置"</string>
+    <string name="help2_text006">此屏幕用于编辑激活保存位置。</string>
+    <string name="help2_text007">该屏幕显示您激活保存位置详细信息。在屏幕的右上方有一个按钮，共享激活保存位置。</string>
+    <string name="help2_text008">该屏幕显示在过去一年已保存的位置。点击保存位置字段，它将激活保存的位置</string>
+    <string name="share_message" formatted="false">http://maps.google.com/maps?q=loc:%.6f,%.6f</string>
+</resources>

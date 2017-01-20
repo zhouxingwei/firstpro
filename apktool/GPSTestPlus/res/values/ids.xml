@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="market_button">false</item>
+    <item type="id" name="layout_root">false</item>
+    <item type="id" name="caption_name">false</item>
+    <item type="id" name="text_name">false</item>
+    <item type="id" name="caption_latitude">false</item>
+    <item type="id" name="text_latitude">false</item>
+    <item type="id" name="caption_longitude">false</item>
+    <item type="id" name="text_longitude">false</item>
+    <item type="id" name="caption_grid">false</item>
+    <item type="id" name="text_grid">false</item>
+    <item type="id" name="caption_datum">false</item>
+    <item type="id" name="text_datum">false</item>
+    <item type="id" name="caption_location">false</item>
+    <item type="id" name="text_location">false</item>
+    <item type="id" name="caption_elevation">false</item>
+    <item type="id" name="text_elevation">false</item>
+    <item type="id" name="caption_accuracy">false</item>
+    <item type="id" name="text_accuracy">false</item>
+    <item type="id" name="caption_savetime">false</item>
+    <item type="id" name="text_savetime">false</item>
+    <item type="id" name="first_divider">false</item>
+    <item type="id" name="caption_notes">false</item>
+    <item type="id" name="text_notes">false</item>
+    <item type="id" name="edit_name">false</item>
+    <item type="id" name="edit_latitude">false</item>
+    <item type="id" name="edit_longitude">false</item>
+    <item type="id" name="edit_elevation">false</item>
+    <item type="id" name="edit_notes">false</item>
+    <item type="id" name="frame_layout">false</item>
+    <item type="id" name="clear_agps">false</item>
+    <item type="id" name="update_agps">false</item>
+</resources>

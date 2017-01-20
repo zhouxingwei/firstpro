@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="22" android:versionName="1.2.1" android:installLocation="auto" package="com.chartcross.gpstestplus"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:description="@string/app_desc">
+        <activity android:label="@string/app_name" android:name=".GPSTestPlus" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_settings_title" android:name=".AppSettings" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name=".About" />
+        <activity android:theme="@*android:style/Theme.Light.NoTitleBar" android:name=".Help" />
+    </application>
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+</manifest>
